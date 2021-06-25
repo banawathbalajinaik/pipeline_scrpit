@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh '''
                 rm -rf *
-                git clone ''
+                git clone 'https://github.com/banawathbalajinaik/pipeline_scrpit.git'
                 '''
             }
         }

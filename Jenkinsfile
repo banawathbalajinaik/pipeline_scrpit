@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh '''
                 pwd
-               mvn clean
+               mvn -f <pom.xml path> clean
                 '''
             }
         }
